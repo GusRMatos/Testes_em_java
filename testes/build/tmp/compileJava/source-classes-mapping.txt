@@ -20,6 +20,8 @@ Strings/Strings.java
  Strings.Strings
 POO/HerancaePoliformismo/Supervisor.java
  POO.HerancaePoliformismo.Supervisor
+Datas/Calculavencimento/Calculandoprazodepagamento.java
+ Datas.Calculavencimento.Calculandoprazodepagamento
 POO/HerancaePoliformismo/Atendente.java
  POO.HerancaePoliformismo.Atendente
 POO/Metodos/Main.java
@@ -28,5 +30,5 @@ Operadores/Logicos.java
  Operadores.Logicos
 Lacos/While.java
  Lacos.While
-Datas/Calculavencimento/Calculandoprazodepagamento.java
- Datas.Calculavencimento.Calculandoprazodepagamento
+Datas/Localdatetime/Manipulandodatas.java
+ Datas.Localdatetime.Manipulandodatas

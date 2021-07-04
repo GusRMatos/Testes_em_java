@@ -1,7 +1,6 @@
 package Datas.Calculavencimento;
 
 import java.util.Calendar;
-import java.util.Date;
 
 public class Calculandoprazodepagamento {
 
@@ -10,7 +9,6 @@ public class Calculandoprazodepagamento {
         //1 RECEBE DATA DE VENCIMENTO
         Calendar vencimento = Calendar.getInstance();
         vencimento.set(2013, Calendar.FEBRUARY, 28);
-        Date data = vencimento.getTime();
 
         //2 SOMA 10 DIAS
         vencimento.add(Calendar.DATE, + 10);
