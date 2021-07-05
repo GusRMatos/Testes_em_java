@@ -1,4 +1,4 @@
-package POO.HerancaePoliformismo;
+package JavaBasico.POO.HerancaePoliformismo;
 
 public class Main {
 

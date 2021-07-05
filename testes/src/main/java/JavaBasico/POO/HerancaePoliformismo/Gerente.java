@@ -1,6 +1,8 @@
-package POO.HerancaePoliformismo;
+package JavaBasico.POO.HerancaePoliformismo;
 
-public class Gerente extends Funcionario{
+import JavaBasico.POO.HerancaePoliformismo.Funcionario;
+
+public class Gerente extends Funcionario {
 
     //Classe filha de Funcionario
 

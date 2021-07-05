@@ -1,4 +1,4 @@
-package Strings;
+package JavaBasico.Strings;
 
 public class Strings {
 

@@ -1,4 +1,4 @@
-package Lacos;
+package JavaBasico.Lacos;
 
 public class For {
 

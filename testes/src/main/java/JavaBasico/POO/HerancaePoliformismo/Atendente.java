@@ -1,6 +1,6 @@
-package POO.HerancaePoliformismo;
+package JavaBasico.POO.HerancaePoliformismo;
 
-public class Atendente extends Funcionario{
+public class Atendente extends Funcionario {
 
     //Classe filha de Funcionario
 
