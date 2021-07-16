@@ -14,6 +14,10 @@ public class ApiFuture {
     public static void main(String[] args) throws InterruptedException {
         //inicialização do objeto casa
         Casa casa = new Casa(new Quarto());
+
+        //CONSTANTE PARA ORGANIZAR SAIDA
+        final String msg = ("----------------------------------------------");
+
         //implementação da lista future
         List<Future<String>> futuros =
         //lambda para ler os dados da lista
@@ -39,7 +43,7 @@ public class ApiFuture {
                 if (Futuro.isDone()) {
                     //try para efetuar o print de atividade concluida e remover a mesma da lista
                     try {
-                        System.out.println("Parabens você terminou de " + Futuro.get());
+                        System.out.printf("\nParabens você terminou de %s", Futuro.get());
                         futuros.remove(Futuro);
                     //catchs para interromper o loop
                     } catch (InterruptedException e) {
@@ -57,7 +61,7 @@ public class ApiFuture {
                 break;
             }
             //print com a saida e timer de 500 milisegundos para cada print
-            System.out.println("Numero de atividades não finalizadas: " + Numerodeatividadesnaofinalizadas);
+            System.out.printf("\nNumero de atividades não finalizadas: %s\n%s", Numerodeatividadesnaofinalizadas,msg);
             Thread.sleep(500);
             }
         //shutdown para parar as threads apos o fim do processo
@@ -108,14 +112,14 @@ class Quarto extends Comodo {
     //metodo arrumar guarda roupa
     private String arrumarguardaroupa() throws InterruptedException {
         Thread.sleep(5000);
-        String arrumar_o_guarda_roupa = "Arrumar o guarda roupa";
+        String arrumar_o_guarda_roupa = "\nArrumar o guarda roupa";
         return arrumar_o_guarda_roupa;
     }
 
     //metodo varrer quarto
     private String varrerquarto() throws InterruptedException {
         Thread.sleep(7000);
-        String varrer_o_quarto = "Varrer o quarto";
+        String varrer_o_quarto = "\nVarrer o quarto";
         System.out.println(varrer_o_quarto);
         return varrer_o_quarto;
     }
@@ -123,7 +127,7 @@ class Quarto extends Comodo {
     //metodo arrumar cama
     private String arrumarcama() throws InterruptedException {
         Thread.sleep(10000);
-        String arrumar_a_cama = "Arrumar a cama";
+        String arrumar_a_cama = "\nArrumar a cama";
         System.out.println(arrumar_a_cama);
         return arrumar_a_cama;
     }

@@ -10,6 +10,7 @@ public class ExemploDeThreads {
         //INICIAR O PROCESSO DE PROGRAMA
         IniciarGerarpdf.start();
         IniciarCarregamento.start();
+
     }
 }
 //PRIMEIRA THREAD QUE GERA O PDF HERDA DA API THREAD
