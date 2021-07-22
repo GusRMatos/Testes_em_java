@@ -14,8 +14,13 @@ repositories {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
-    //jdbc postresql
-    compile 'org.postgresql:postgresql:9.2-1004-jdbc4'
+    //jdbc postgresql
+    implementation('org.postgresql:postgresql:9.2-1004-jdbc4')
+    //jpa postgresql
+    implementation(group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2')
+    //hibernate
+    implementation(group: 'org.hibernate', name: 'hibernate-core', version: '5.4.12.Final')
+    annotationProcessor('org.hibernate:hibernate-jpamodelgen:5.4.13.Final')
 
 }
 

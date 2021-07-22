@@ -1,3 +1,5 @@
+DesafiodeCodigo/QtdeNumerosPositivos.java
+ DesafiodeCodigo.QtdeNumerosPositivos
 JavaCollections/Set/ExemploHashSet.java
  JavaCollections.Set.ExemploHashSet
 JavaCollections/Comparators/Funcionario.java
@@ -8,6 +10,8 @@ JavaCollections/Streams/ExemplosStreamApi.java
  JavaCollections.Streams.ExemplosStreamApi
 JavaCollections/Optional/ExemploOptional.java
  JavaCollections.Optional.ExemploOptional
+Banco/Jpa/Aluno.java
+ Banco.Jpa.Aluno
 JavaBasico/Strings/Strings.java
  JavaBasico.Strings.Strings
 JavaBasico/Datas/Comparardatas/Descobrindosenasciantesde2010.java
@@ -22,10 +26,16 @@ JavaBasico/POO/Metodos/Main.java
  JavaBasico.POO.Metodos.Main
 JavaBasico/Lacos/While.java
  JavaBasico.Lacos.While
+DesafiodeCodigo/LerInteiroeMostrarNumerosImparesApos.java
+ DesafiodeCodigo.LerInteiroeMostrarNumerosImparesApos
+Banco/Jpa/Estado.java
+ Banco.Jpa.Estado
 JavaAvancado/Fatorial/Recursividade.java
  JavaAvancado.Fatorial.Recursividade
 JavaBasico/POO/HerancaePoliformismo/Gerente.java
  JavaBasico.POO.HerancaePoliformismo.Gerente
+Banco/Jdbc/QuerysExecution.java
+ Banco.Jdbc.QuerysExecution
 JavaBasico/Operadores/Logicos.java
  JavaBasico.Operadores.Logicos
 JavaBasico/Operadores/Relacionais.java
@@ -36,8 +46,16 @@ JavaAvancado/ProcessamentoAssicronoeParalelo/ExemploDeThreads.java
  JavaAvancado.ProcessamentoAssicronoeParalelo.Geradorpdf
 JavaCollections/Set/ExemploLinkedHashSet.java
  JavaCollections.Set.ExemploLinkedHashSet
+Banco/Jdbc/Aluno.java
+ Banco.Jdbc.Aluno
+Banco/Jdbc/ConexaoBanco.java
+ Banco.Jdbc.ConexaoBanco
 JavaBasico/POO/Metodos/Carro.java
  JavaBasico.POO.Metodos.Carro
+Banco/Jdbc/AlunoDAO.java
+ Banco.Jdbc.AlunoDAO
+DesafiodeCodigo/SomadoisInteiros.java
+ DesafiodeCodigo.SomadoisInteiros
 JavaAvancado/ProcessamentoAssicronoeParalelo/ApiFuture.java
  JavaAvancado.ProcessamentoAssicronoeParalelo.ApiFuture
  JavaAvancado.ProcessamentoAssicronoeParalelo.Atividade
@@ -54,6 +72,8 @@ JavaBasico/POO/HerancaePoliformismo/Main.java
  JavaBasico.POO.HerancaePoliformismo.Main
 JavaCollections/Queue/ExemploQueue.java
  JavaCollections.Queue.ExemploQueue
+Banco/Jdbc/ConexaoFactory.java
+ Banco.Jdbc.ConexaoFactory
 JavaBasico/Lacos/For.java
  JavaBasico.Lacos.For
 JavaCollections/Comparators/ExemploComparatorList.java
@@ -67,8 +87,6 @@ JavaBasico/Datas/Calculavencimento/Calculandoprazodepagamento.java
 JavaAvancado/Funcao/FuncaoAltaOrdem.java
  JavaAvancado.Funcao.FuncaoAltaOrdem
  JavaAvancado.Funcao.FuncaoAltaOrdem$Calculo
-JavaCollections/Map/ExemploTreeMap.java
- JavaCollections.Map.ExemploTreeMap
 JavaAvancado/Funcao/TesteFuncional.java
  JavaAvancado.Funcao.TesteFuncional
 JavaBasico/POO/HerancaePoliformismo/Supervisor.java
@@ -79,11 +97,7 @@ JavaCollections/Map/ExemploHashMap.java
  JavaCollections.Map.ExemploHashMap
 JavaCollections/Optional/ExemploOptionalEstados.java
  JavaCollections.Optional.ExemploOptionalEstados
-DesafiodeCodigo/SomadoisInteiros.java
- DesafiodeCodigo.SomadoisInteiros
-DesafiodeCodigo/QtdeNumerosPositivos.java
- DesafiodeCodigo.QtdeNumerosPositivos
-DesafiodeCodigo/LerInteiroeMostrarNumerosImparesApos.java
- DesafiodeCodigo.LerInteiroeMostrarNumerosImparesApos
-Banco/ConexaoBanco.java
- Banco.ConexaoBanco
+JavaCollections/Map/ExemploTreeMap.java
+ JavaCollections.Map.ExemploTreeMap
+Banco/Jpa/Execucao.java
+ Banco.Jpa.Execucao
